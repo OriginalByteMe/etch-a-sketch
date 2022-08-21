@@ -5,6 +5,7 @@ row.classList.add('row');
 box.classList.add('box');
 
 function addBoxListeners(){
+    const boxes = document.querySelectorAll('.box');
     boxes.forEach(box => {
         box.addEventListener('mouseover', ()=> {
             box.classList.add('changeColour');
@@ -46,5 +47,5 @@ function createInitCanvas(){
     }
 }
 
-
+createInitCanvas();
 addBoxListeners();
