@@ -6,12 +6,8 @@
 .box{
     flex: auto;
     margin:auto;
-    height: 100px;
-    width:100px;
+    height: 50px;
+    width:50px;
     border: 1px solid black;
     text-align: center;
-}
-
-.box.changeColour{
-    background-color: hsl(0, 80%, 24%);
 }
